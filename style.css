@@ -1,0 +1,604 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 8vh;
+    align-items: center;
+}
+
+body{
+    background-color: skyblue;
+}
+
+nav {
+    list-style: none;
+}
+
+.background-image{
+    position: absolute;
+    top: 10px;
+    left: 200px;
+    background-size: cover;
+    z-index: -1;
+    width: 1480px;
+    height: 745px;
+}
+
+.background-image2{
+    position: absolute;
+    top: 1550px;
+    left: 200px;
+    background-size: cover;
+    z-index: -1;
+    width: 1480px;
+    height: 745px;
+}
+
+.container{
+    width: 65vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap :7rem;
+    padding: 0 2rem;
+}
+
+.text1 {
+    font-style: italic;
+    font-family: Kaushan;
+    position: absolute;
+    left: 890px;
+    top: 220px;
+    font-size: 60px;
+    color: #333;
+
+    max-width: 600px;
+    text-align: center;
+}
+
+section#como-funciona{
+    position: absolute;
+    left: 200px;
+    top: 780px;
+    bottom: -620px;
+    background-color: white;
+    width: 1481px;
+    height: 750px;
+}
+
+.texto p{
+    position: absolute;
+    left: 300px;
+    top: 1330px;
+    font-size: 40px;
+    font-family: Cooper;
+    color: royalblue;
+}
+
+.img {
+    position: absolute;
+    left: 320px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.img img{
+    width: 300px;
+}
+
+.playstore img{
+    height: 50px;
+    position: absolute;
+    left: 650px;
+    top: 490px;
+}
+
+.appstore img{
+    height: 50px;
+    position: absolute;
+    left: 645px;
+    top: 570px;
+}
+
+.img_celular img{
+    height: 210px;
+    position: absolute;
+    left: 75px;
+    top: 110px;
+}
+
+.codigoQR img{
+    position: absolute;
+    height: 160px;
+    top: 120px;
+    left: 760px;
+}
+
+.tienda img{
+    position: absolute;
+    height: 320px;
+    left: 190px;
+    top: 360px;
+}
+
+.moneda img{
+    position: absolute;
+    left: 760px;
+    top: 420px;
+}
+
+.sol1 img{
+    position: absolute;
+    left: 300px;
+    top: 1845px;
+    height: 80px;
+}
+
+.sol2 img{
+    position: absolute;
+    left: 850px;
+    top: 1845px;
+    height: 80px;
+}
+
+.sol3 img{
+    position: absolute;
+    left: 1310px;
+    top: 1845px;
+    height: 80px;
+}
+
+.nav-menu {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    font-family: Bell MT;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.nav-menu li {
+    list-style: none;
+    margin: 0px auto;
+    padding: 8px;
+}
+
+.burger {
+    cursor: pointer;
+    display: none;
+}
+.burger .line {
+    width: 20px;
+    height: 4px;
+    background-color: #1d0b7d;
+    margin: 3px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.como-funciona h1{
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    font-family: Cooper Black;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 93px;
+    color: #1E116B;
+}
+
+.como-funciona h2{
+    position: absolute;
+    left: 950px;
+    top: 120px;
+    font-family: Forte;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    color: #0A7770;
+}
+
+.como-funciona h3{
+    position: absolute;
+    left: 210px;
+    top: 120px;
+    font-family: Forte;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    color: #0A7770;
+}
+
+.header-logo {
+    position: absolute;
+    color: green;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 35px;
+    font-family: Algerian;
+    left: 310px;
+}
+
+.como-funciona h4{
+    position: absolute;
+    left: 950px;
+    top: 385px;
+    font-family: Forte;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 50px;
+    color: #0A7770;
+}
+
+.precios h3{
+    position: absolute;
+    width: 301px;
+    height: 66px;
+    left: 820px;
+    top: 1550px;
+
+    font-family: Bookman Old Style;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 104px;
+
+    color: orangered;
+}
+
+.precios p1{
+    position: absolute;
+    width: 1277px;
+    height: 88px;
+    left: 400px;
+    top: 1850px;
+
+    font-family: Cooper;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+
+    color: rebeccapurple;
+}
+
+.precios p2{
+    position: absolute;
+    width: 1277px;
+    height: 88px;
+    left: 940px;
+    top: 1850px;
+
+    font-family: Cooper;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+
+    color: rebeccapurple;
+}
+
+.precios p3{
+    position: absolute;
+    width: 1277px;
+    height: 88px;
+    left: 1400px;
+    top: 1850px;
+
+    font-family: Cooper;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+
+    color: rebeccapurple;
+}
+
+section#sobre-Nosotros{
+    position: absolute;
+    left: 200px;
+    top: 3000px;
+    background-color: aliceblue;
+    width: 1481px;
+    height: 877px;
+}
+
+.sobre-Nosotros h1{
+    position: absolute;
+    width: 679.21px;
+    height: 82.4px;
+    left: 29px;
+    top: 26px;
+
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 93px;
+
+    color: #051F47;
+}
+
+.sobre-Nosotros h3{
+    position: absolute;
+    width: 301px;
+    height: 66px;
+    left: 572px;
+    top: 95px;
+
+    font-family: Cooper;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 104px;
+
+    color: steelblue;
+}
+
+.sobre-Nosotros p{
+    position: absolute;
+    width: 1325px;
+    height: 252px;
+    left: 81px;
+    top: 239px;
+
+    font-family: Rockwell;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+
+    color: mediumblue;
+}
+
+.img_celular p{
+    position: absolute;
+    font-size: 32px;
+    width: 480px;
+    left: 210px;
+    top: 180px;
+
+    line-height: 35px;
+    color: saddlebrown;
+    font-family: Ebrima;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.codigoQR p{
+    position: absolute;
+    font-size: 32px;
+    font-family: Ebrima;
+
+    width: 480px;
+    left: 950px;
+    top: 180px;
+
+    line-height: 35px;
+    color: saddlebrown;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.moneda p{
+    position: absolute;
+    font-family: Ebrima;
+    font-size: 32px;
+    width: 480px;
+    left: 950px;
+    top: 450px;
+
+    line-height: 35px;
+    color: saddlebrown;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.text3{
+    background: pink;
+    font-family: Bell MT;
+    position: absolute;
+    left: 820px;
+    top: 2180px;
+    font-size: 30px;
+    color: black;
+    border: 1px solid;
+    max-width: 600px;
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.mes {
+    background: greenyellow;
+    font-family: Bell MT;
+    position: absolute;
+    left: 310px;
+    top: 1700px;
+    font-size: 100px;
+    border: 1px solid;
+    max-width: 600px;
+    text-align: center;
+}
+
+.meses {
+    background: greenyellow;
+    font-family: Bell MT;
+    position: absolute;
+    left: 790px;
+    top: 1700px;
+    font-size: 100px;
+    border: 1px solid;
+    max-width: 600px;
+    text-align: center;
+}
+
+.año {
+    background: greenyellow;
+    font-family: Bell MT;
+    position: absolute;
+    left: 1310px;
+    top: 1700px;
+    font-size: 100px;
+    border: 1px solid;
+    max-width: 600px;
+    text-align: center;
+}
+
+.text4{
+    position: absolute;
+    width: 679.21px;
+    height: 82.4px;
+    left: 191px;
+    top: 570px;
+
+    font-family: Josefin Sans;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+
+    color: #000000;
+}
+
+.field{
+    position: absolute;
+    left: 15%;
+    width: 50%;
+    top: 78%;
+    bottom: 12%;
+    font-family: Roboto;
+    font-size: 36px;
+    background: #FFFFFF;
+    box-sizing: border-box;
+}
+
+.btn{
+    background-color: #2ecc71;
+    color: #fff;
+    transition: .3s;
+    font-family: Josefin Sans;
+    font-size: 36px;
+    width: 20%;
+    position: absolute;
+    left: 64%;
+    top: 78%;
+    bottom: 12%;
+    cursor: pointer;
+    border: 2px solid #000000;
+}
+
+.btn:hover{
+    background-color: #27ae60;
+}
+
+.text2 {
+    background: dodgerblue;
+    font-family: Bell MT;
+    position: absolute;
+    left: 1050px;
+    top: 530px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid;
+    max-width: 600px;
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    line-height: 80px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.eleccion1{
+    background: mediumblue;
+    font-family: Arial Black;
+    position: absolute;
+    left: 290px;
+    top: 1980px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid;
+    max-width: 600px;
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    line-height: 80px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.eleccion2{
+    background: mediumblue;
+    font-family: Arial Black;
+    position: absolute;
+    left: 820px;
+    top: 1980px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid;
+    max-width: 600px;
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    line-height: 80px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.eleccion3{
+    background: mediumblue;
+    font-family: Arial Black;
+    position: absolute;
+    left: 1280px;
+    top: 1980px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid;
+    max-width: 600px;
+    text-align: center;
+    height: 80px;
+    width: 300px;
+    line-height: 80px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#piechart{
+    position: absolute;
+    margin: 200px;
+    top: 2175px;
+    left: 1px;
+    width: 500px;
+    height: 500px;
+}
+
+section#chart{
+    position: absolute;
+    left: 200px;
+    top: 2320px;
+    bottom: -620px;
+    background-color: white;
+    width: 1481px;
+    height: 650px;
+}
+
+.usuario{
+    font-style: italic;
+    font-family: Agency FB;
+    position: absolute;
+    left: 880px;
+    top: 220px;
+    font-size: 60px;
+    color: darkblue;
+
+    max-width: 600px;
+    text-align: center;
+}

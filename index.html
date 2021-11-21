@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Store Finding</title>
+    <link rel="stylesheet" href="style.css"/>
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+
+        function drawChart() {
+
+            var data = google.visualization.arrayToDataTable([
+                ['Tiempo', 'Porcentaje de descarga'],
+                ['Diaria', 13],
+                ['Mensual', 7],
+                ['Anual', 5]
+            ]);
+
+            var options = {
+                title: 'Descargas de realizadas por nuestros usuarios'
+            };
+
+            var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+            chart.draw(data, options);
+        }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<header>
+    <div class="header-logo">
+        Store Finding
+    </div>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="" >Sobre nosotros</a></li>
+            <li><a href="">Cómo funciona</a></li>
+            <li><a href="">Apóyanos</a></li>
+            <li><a href="">Precios</a></li>
+            <li><a href="">Sign in</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+</header>
+<body>
+    <div class="background-image" style="background-image: url(img/fondo.PNG)"> </div>
+    <div class="container">
+        <div class="img">
+            <img src="img/img.PNG">
+        </div>
+
+        <h2 class="text1">
+            Tu mejor opción para encontrar la tienda ideal para ti
+        </h2>
+        <button class="text2">
+            Pruébala ahora!
+        </button>
+
+        <a href="https://www.apple.com/la/app-store/">
+            <div class="appstore">
+            <img src="img/appstore.png">
+            </div>
+        </a>
+
+        <a href="https://play.google.com/store?hl=es_PE&gl=US">
+            <div class="playstore">
+                <img src="img/playstore.png">
+            </div>
+        </a>
+
+    </div>
+    <section id="como-funciona" class="como-funciona">
+
+        <h1>Cómo funciona</h1>
+        <h2>Código QR</h2>
+        <h3>Registro</h3>
+        <h4>Conocer tiendas</h4>
+
+        <div class="img_celular">
+            <img src="img/celular.png">
+            <p>Registra la ubicación de tu tienda o bodega mediante código QR, GPS o de forma manual</p>
+        </div>
+
+        <div class="tienda">
+            <img src="img/tienda.png">
+        </div>
+
+        <div class="codigoQR">
+            <img src="img/codigo.png">
+            <p>Con ayuda de la cámara del celular, escanea el código QR y, de esta forma
+            ya habrás registrado la ubicación de tu tienda o bodega</p>
+        </div>
+
+        <div class="moneda">
+            <img src="img/moneda.png">
+            <p>Los clientes conocerán la ubicación de las tiendas registradas y podrán visitarlas
+            si les interesa</p>
+        </div>
+        <div class="texto">
+            <p>Te ayudamos a promocionar tu tienda o bodega</p>
+        </div>
+    </section>
+
+    <section id="precios" class="precios">
+        <div class="background-image2" style="background-image: url(img/fondo.PNG)"> </div>
+        <div class="sol1">
+            <img src="img/sol.png">
+        </div>
+        <div class="sol2">
+            <img src="img/sol.png">
+        </div>
+        <div class="sol3">
+            <img src="img/sol.png">
+        </div>
+
+        <h3>Precios</h3>
+        <h4 class="mes">1 mes</h4>
+        <h4 class="meses">6 meses</h4>
+        <h4 class="año">1 año</h4>
+
+        <p1>28.90</p1>
+        <p2>171.5</p2>
+        <p3>344.3</p3>
+
+        <button class="eleccion1">Seleccionar</button>
+        <button class="eleccion2">Seleccionar</button>
+        <button class="eleccion3">Seleccionar</button>
+        <button class="text3">
+            Conocer más precios
+        </button>
+    </section>
+    <section id="chart">
+        <h3 class="usuario">Nuestros usuarios ya están satisfechos</h3>
+    </section>
+    <div id="piechart" style="width: 900px; height: 500px;"></div>
+    <section id="sobre-Nosotros" class="sobre-Nosotros">
+        <h1>Sobre nosotros</h1>
+        <h3>StoreHelp</h3>
+        <p>Somos StoreHelp, una empresa que, como misión, tiene la de apoyar a dueños de tienda o
+            bodega a que consigan mayor reconocimiento y clientela. Asimismo, como visión, tenemos la de ser la
+            mejor empresa en brindar apoyo a emprendedores y clientes que buscan una buena calidad de productos a
+            un precio cómodo</p>
+
+        <h4 class="text4">
+            Contáctanos
+        </h4>
+        <input type="text" class="field" placeholder="   E-mail">
+        <button class="btn">Send</button>
+    </section>
+</body>
+</html>
